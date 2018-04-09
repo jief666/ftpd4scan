@@ -14,6 +14,7 @@ It should be a command line argument... I know...
 ## Getting Started
 - Compile with xcode.
 - Copy the sample `gftpd.plist` in `/Library/LaunchDaemons`. Adapt the path in `<Program>`.
+- Do `sudo launchctl load -w /Library/LaunchDaemons/gftpd.plist`
 -  **That's it !**
 
 ## Options
