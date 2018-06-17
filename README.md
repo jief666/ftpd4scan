@@ -6,7 +6,7 @@ Because there is no ftp anymore in High Sierra, I needed a ftp for my network sc
 ## Usage
 You need to connect with an existing account. Any password is accepted. The current remote directory after login is `[User home directory]/Pictures`.<br/>
 Commands to download, change remote directory, delete remote files, etc. are removed.<br/>
-File name of uploaded files cannot contains any '/'.
+File name of uploaded files cannot contains any '/' to prevent any going up and down in your other files.
 
 To change the current working directory at login, change the line 87 of `auth.c`. <br/>
 It should be a command line argument... I know...
