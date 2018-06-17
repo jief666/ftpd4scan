@@ -21,7 +21,7 @@ It should be a command line argument... I know...
 There is not config file or external file.<br/>
 No pid file, no `ftpusers` file, no `ftpchroot` file (see next paragraph), no log file, no `nologin` file, no welcome file and no login msg file.
 
-NOTE : if you'd like to debug, you can use `[your_path]/ftpd4scan/DerivedData/ftpd4scan/Build/Products/Debug/ftpd4scan` in `gftpd.plist`. That way, you just have to compile with Xcode and retry a connection (If you change dftpd.plist, you have to unload with launchctl and reload).
+NOTE : if you'd like to debug, you can use `[your_path]/ftpd4scan/DerivedData/ftpd4scan/Build/Products/Debug/ftpd4scan` in `gftpd.plist`. That way, you just have to compile with Xcode and retry a connection (If you change gftpd.plist, you have to unload with launchctl and reload).
 
 ## Technicality
 #### chroot
